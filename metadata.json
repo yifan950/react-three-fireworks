@@ -1,0 +1,7 @@
+{
+  "name": "Neon Dreams: New Year 3D",
+  "description": "A high-performance, interactive 3D New Year celebration featuring particle oceans, complex fireworks, and AI hand tracking.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Neon Dreams 2026 | Interactive 3D Experience</title>
+    
+    <!-- Meta Tags -->
+    <meta name="description" content="A gesture-driven 3D experience: a flowing memory ocean beneath the night sky, where fireworks bloom at your touch. Created by Yifan Liu." />
+    <meta property="og:title" content="Neon Dreams 2026" />
+    <meta property="og:description" content="Interactive 3D New Year celebration featuring particle oceans and AI hand tracking." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1467810563316-b5476525c0f9?q=80&w=1200&auto=format&fit=crop" />
+    
+    <!-- Favicon (Sparkle Emoji) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>">
+    
+    <!-- Styles & Scripts -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Replaced Google Fonts with Bunny Fonts for better access in China -->
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=playfair-display:400,400i,700,700i|inter:300,400,600" rel="stylesheet" />
+    
+    <style>
+      body { margin: 0; background-color: #050103; overflow: hidden; font-family: 'Inter', sans-serif; }
+      h1, h2, h3 { font-family: 'Playfair Display', serif; }
+      /* Custom scrollbar hiding */
+      ::-webkit-scrollbar { display: none; }
+      /* Prevent mobile touch highlights */
+      * { -webkit-tap-highlight-color: transparent; }
+      
+      /* Loading Spinner */
+      #loader {
+        position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+        width: 50px; height: 50px; border: 3px solid rgba(255, 105, 180, 0.3);
+        border-radius: 50%; border-top-color: #ff69b4;
+        animation: spin 1s ease-in-out infinite;
+        z-index: 0; pointer-events: none;
+      }
+      @keyframes spin { to { transform: translate(-50%, -50%) rotate(360deg); } }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "three": "https://esm.sh/three@^0.182.0",
+    "@react-three/fiber": "https://esm.sh/@react-three/fiber@^9.4.2",
+    "@mediapipe/tasks-vision": "https://esm.sh/@mediapipe/tasks-vision@0.10.8",
+    "@react-three/drei": "https://esm.sh/@react-three/drei@^10.7.7",
+    "@react-three/postprocessing": "https://esm.sh/@react-three/postprocessing@^3.0.4",
+    "three-stdlib": "https://esm.sh/three-stdlib@^2.36.1"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="loader"></div>
+    <div id="root"></div>
+    <script type="module" src="./index.tsx"></script>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
