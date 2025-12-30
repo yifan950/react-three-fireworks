@@ -2,8 +2,8 @@
 
 A high-performance interactive 3D experience celebrating the New Year. Explore a flowing ocean of memory, uncover hidden golden treasures, and light up the sky with fireworks using nothing but your hands.
 
--**👉 Experience it live here:** [https://happy-new-year-2026-a-gift-from-yifan.netlify.app/](https://happy-new-year-2026-a-gift-from-yifan.netlify.app/)
--**👉 Demo:** [Youtube]( https://youtu.be/SzSC1kIgdEQ?si=wFwTJm8GsX_MzanE)
+**👉 Experience it live here:** [https://happy-new-year-2026-a-gift-from-yifan.netlify.app/](https://happy-new-year-2026-a-gift-from-yifan.netlify.app/)  
+**👉 Demo:** [Youtube]( https://youtu.be/SzSC1kIgdEQ?si=wFwTJm8GsX_MzanE)
 
 ## 💡 The Concept: 
 Imagine an ocean of memories, where floating memory orbs hold moments that can ignite into fireworks. As you explore this sea and discover treasured memory fragments, you'll unlock special firework surprises.
