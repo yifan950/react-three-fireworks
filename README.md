@@ -2,6 +2,8 @@
 
 A high-performance interactive 3D experience celebrating the New Year. Explore a flowing ocean of memory, uncover hidden golden treasures, and light up the sky with fireworks using nothing but your hands.
 
+**👉 Experience it live here:** [https://happy-new-year-2026-a-gift-from-yifan.netlify.app/](https://happy-new-year-2026-a-gift-from-yifan.netlify.app/)
+
 ## ✨ Features
 
 - **🌊 GPU-Instanced Ocean**: Simulating 15,000+ interactive particles that react to wave physics and input.
